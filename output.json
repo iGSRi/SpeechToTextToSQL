@@ -1,0 +1,23 @@
+{
+	"select": {
+		"columns": [
+			{ "column": "name",
+			  "type": "[]"
+			},
+			{ "column": "age",
+			  "type": "[]"
+			}
+		]
+	},
+	"from": {
+		"table": "student"
+	},
+	"join": {
+	},
+	"where": {
+	},
+	"group_by": {
+	},
+	"select": {
+	},
+}
