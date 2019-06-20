@@ -1,0 +1,46 @@
+<!doctype html>
+<title>Speech to text</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+
+<form method="POST" action="/Speech">
+	<div class="login">
+		<div class="login-screen">
+			<div class="app-title">
+				<h1>Speech to text</h1>
+			</div>
+			<div class="login-form">
+                <input type="submit" value="Click to start" href="/Speech" class="btn btn-primary btn-large btn-block" >
+			    <br>
+				<hr/>
+				<br>
+				<b>
+					<a>
+						<u>
+							SPOKEN TEXT :- 
+						</u>
+					</a>
+				</b>
+				<label id="lbl_Output">{{Output}}</label>
+				<br><br>
+				<b>
+					<a>
+						<u>
+							SQL QUERY :- 
+						</u>
+					</a>
+				</b>				
+					<label id="lbl_OutputSQL">{{OutputQuery}}</label>
+				<br>
+				<hr>
+				<div style="width:100%">
+					{% for table in tables %}
+						{{titles[loop.index]}}
+						{{ table|safe }}
+					{% endfor %}
+				</div>
+				<!--<img src={{ user_image }}>-->
+			</div>
+		</div>
+	</div>
+</div>
+</form>
