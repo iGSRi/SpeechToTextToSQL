@@ -1,3 +1,11 @@
+Fixed the code for issues in ‘”LIKE“ query.
+
+Working sample speech:
+1)	Average age of STUDENTS
+2)	Highest age of STUDENTS
+3)	Give me the list of STUDENTS whose name like MAHI
+4)	Give me the list of STUDENTS whose age is greater than 21
+
 # ln2sql
 
 <b>ln2sql is a NLP tool to query a database in natural language.</b> The tool takes in input a database model and a sentence and translate the latter in a valid SQL statement able to query the input data model.
