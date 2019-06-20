@@ -182,7 +182,7 @@ the output is:
 
 ## Conception
 The tool is implemented under the Model-View-Controller pattern. The classes imported from the Python Standard Library do not appear in the diagram except those required for inheritance (<i>e.g.</i> <i>Thread</i> or <i>Exception</i>).
-<p align="center"><img src="https://raw.githubusercontent.com/FerreroJeremy/ln2sql/master/docs/mvc_class_diagram.png"></p>
-The above diagram was modeled with <a rel="staruml" href="http://staruml.io/">StarUML</a>.
+<p align="center"><img src="https://github.com/iGSRi/SpeechToTextToSQL/blob/master/docs/mvc_class_diagram.png"></p>
+
 <br/>
 <br/>
